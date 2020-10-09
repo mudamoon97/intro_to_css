@@ -1,0 +1,98 @@
+
+.container{
+    margin: 3%;
+}
+
+header{
+    background-color: #e4572e;
+    border: 1px solid black;
+    margin: auto;
+    text-align: center;
+    font-family: 'Chelsea Market', cursive;
+    height: 110px;
+}
+
+.so{
+    color: white;
+    font-size: medium;
+}
+
+body{
+    font-family: 'Gamja Flower', cursive;
+}
+
+.art{
+    border: 4px solid #050401;
+    margin-right: 20px;
+    margin-left: 350px;
+    margin-top: 10px;
+    height: 200px;
+    width: 800px;
+    box-shadow: 3px 3px 0 0 #e4572e;
+}
+
+.img{
+    float:right;
+}
+
+.art2{
+    border: 4px solid #050401;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 350px;
+    height: 300px;
+    width: 800px;
+    box-shadow: 3px 3px 0 0 #e4572e;
+}
+
+.img2{
+    float:right;
+}
+
+footer{
+    text-align: center;
+    font-weight: bold; 
+}
+
+input[type="text"]{
+    width:160px;
+    height:32px;
+    padding:1px;
+    box-shadow: 3px 3px 0 0 #e4572e;
+    float: left;
+    margin-left: 250px; 
+    margin-right: 5px;
+     
+}
+
+input[type="submit"]{
+    width:100px;
+    height:32px;
+    padding:1px;
+    box-shadow: 3px 3px 0 0 #e4572e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
