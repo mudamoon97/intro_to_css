@@ -14,7 +14,9 @@
         <h1>Sanni's Journal</h1>
         <h2 class="so">So fresh and so clean</h2>
     </header>
+    <button>Add a new notes</button>
     
+    <p class="note">You have 2 notes</p>
 
     <main class="control">
         <article class="art">
@@ -42,13 +44,35 @@
     <form>
         <div>
         <p><input type="text" placeholder="First name"></p>
-        <p><input type="text" placeholder="Email"></p>
+        <p class="in1"><input type="text" placeholder="Email"></p>
         <p><input type="submit" value="Submit"></p>
+        </div>
     </form>
 
     <p>&copy; 2023 Sanni. No Rights Reserved.</p>
     </footer>
-
+    
 </body>
+<script>
+
+    var articleList = document.getElementsByClassName("art")
+    var articleList = document.getElementsByClassName("art2")
+
+    articleList.length;
+
+    const button = document.querySelector('button');
+
+    button.onclick = function(){
+        let note = prompt('write your note');
+    }
+
+    const btn = document.querySelector('button');
+    const txt = document.querySelector
+
+
+    
+
+        
+</script>
 
 </html>
