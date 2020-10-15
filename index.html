@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="container">
     
     <header> 
         <h1>Sanni's Journal</h1>
@@ -41,13 +41,19 @@
     <h2>Stay connected</h2>
     <p>Join my mailing list.</p>
 
-    <form>
+    <div class="body">
+    <form class="contact">
         <div>
-        <p><input type="text" placeholder="First name"></p>
-        <p class="in1"><input type="text" placeholder="Email"></p>
-        <p><input type="submit" value="Submit"></p>
+        <p><input type="text" placeholder="First name" class="first"></p>
+        </div>
+        <div>
+        <p><input type="text" placeholder="Email" class="second"></p>
+        </div>
+        <div>
+        <p><input type="submit" value="Submit" class="third"></p>
         </div>
     </form>
+    </div>
 
     <p>&copy; 2023 Sanni. No Rights Reserved.</p>
     </footer>
@@ -55,19 +61,23 @@
 </body>
 <script>
 
-    var articleList = document.getElementsByClassName("art")
-    var articleList = document.getElementsByClassName("art2")
+    //var articleList = document.getElementsByClassName("art")
+    //var articleList = document.getElementsByClassName("art2")
 
-    articleList.length;
+    //articleList.length;
 
     const button = document.querySelector('button');
 
-    button.onclick = function(){
-        let note = prompt('write your note');
-    }
+    button.addEventListener("click",function(){ 
+        alert("Clicked")
+    })
 
-    const btn = document.querySelector('button');
-    const txt = document.querySelector
+    //button.onclick = function(){
+        //let note = prompt('write your note');
+    //}
+
+    //const btn = document.querySelector('button');
+    //const txt = document.querySelector
 
 
     
