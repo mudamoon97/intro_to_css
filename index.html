@@ -16,20 +16,49 @@
         <h2 class="so">So fresh and so clean</h2>
     </header>
 
-    <div class="container">
-    <!--<button id="but">Add a new notes</button>-->
     
-    <!--<p class="note">You have 2 notes</p>-->
 
-    <main id="control" class="control">
-        <article class="article art">
+        
+    
+    
+    <main class="control" id="control">
+        <div>
+            <button id="trigger-modal" class="but">Add a new note!</button>
+            <p id="counter"></p>
+        </div>
+    
+            <section class="modal-section" id="modal-section">
+                <div class="modal-div">
+                  <div class="modal-content">
+                    <h1>Add new note</h1>
+                  </div>
+                  <div class="modal-title-content">
+                    <div class="title-note">
+                      <label>Title</label>
+                      <input type="text" placeholder="title" id="title" autocomplete="off" required />
+                    </div>
+                    <div class="content-note">
+                      <label>Content</label>
+                      <textarea type="text" placeholder="content" id="content" autocomplete="off" required></textarea>
+                    </div>
+                  </div>
+                  <hr />
+                  <div class="modal-cta">
+                    <button id="add-note">ok</button>
+                    <button id="cancel-modal">cancel</button>
+                  </div>
+                </div>
+              </section>
+
+        <section id="article-container" class="article-container"></section>
+        <article class="article">
             <h2>13/05/23: Spatulas</h2>
             <p class="img"><img src="images/spatula.gif" alt="spatulas"></p>
             <p>
                 Yesterday I went to the store and got some much-needed <a href="https://www.youtube.com/watch?v=2XbCWmY0eqY">spatulas!</a> (What better way to say I love myself than to buy myself a spatula?)
             </p>
         </article>
-        <article class="article art2">
+        <article class="article">
             <h2>14/05/23: Cookie Monster Cupcakes</h2>
             <p class="img2"><img src="images/cookiemonster.jpg" alt="cookie monster"></p>
             <p>My favorite cartoon character is Cookie Monster, and my favorite dessert is cupcakes, so Cookie Monster cupcakes are the best of both worlds.
@@ -38,8 +67,10 @@
             <p>Did you know? Cookie Monster once said, <q>Sometimes me think what is love, and then me think love is what last cookie is for. Me give up the last cookie for you.</q> I wonder if the same applies for cupcakes? (If so, I don't think I can ever love ANYONE!)
             </p>
         </article>
-    </div>
+        </section>
     </main>
+
+    
 
     <hr>
     <footer>
@@ -47,22 +78,16 @@
     <p>Join my mailing list.</p>
     
 
-    <div class="body">
-    <form class="contact">
-        <div>
-        <p><input type="text" placeholder="First name" class="first"></p>
-        </div>
-        <div>
-        <p><input type="text" placeholder="Email" class="second"></p>
-        </div>
-        <div>
-        <p><input type="submit" value="Submit" class="third"></p>
-        </div>
+    
+    <form>
+        <p><input type="text" placeholder="First name"></p>
+        <p><input type="text" placeholder="Email"></p>
+        <p><input type="submit" value="Submit"></p>
     </form>
-    </div>
-
+    
     <p>&copy; 2023 Sanni. No Rights Reserved.</p>
     </footer>
+    
     
 </body>
 <script src="./index.js"></script>
